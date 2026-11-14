@@ -10,6 +10,25 @@ A 2D underwater exploration and survival game about discovering marine life. Swi
 - Explore with a minimap, depth display, and water that darkens as you descend.
 - Complete the Sunlight Zone bestiary to unlock its knowledge-based boss encounter.
 
+## Screenshots
+
+Click a screenshot to view it at full size.
+
+| Underwater exploration | Bestiary and skill journal |
+| --- | --- |
+| [![Player exploring the Sunlight Zone with health, experience, depth, and minimap UI](docs/screenshots/exploration.png)](docs/screenshots/exploration.png) | [![Bioluminescent Flare journal entry with a real-world photo, biology notes, and trivia](docs/screenshots/skills-journal.png)](docs/screenshots/skills-journal.png) |
+| Track health, experience, depth, and nearby surroundings while swimming. | Browse biology notes, photos, trivia, and ability references. |
+
+| Skill selection | Quiz boss encounter |
+| --- | --- |
+| [![Level-up screen offering three skill cards with descriptions and Select buttons](docs/screenshots/skill-selection.png)](docs/screenshots/skill-selection.png) | [![Quiz boss encounter showing the player, Goliath Grouper, health bars, and a multiple-choice question](docs/screenshots/quiz.png)](docs/screenshots/quiz.png) |
+| Choose a new ability or upgrade when you level up. | Put your marine-life knowledge to the test with multiple-choice questions. |
+
+| Main menu | End-of-dive summary |
+| --- | --- |
+| [![Hadal Descent title screen with Start and Exit options](docs/screenshots/main-menu.png)](docs/screenshots/main-menu.png) | [![Game-over screen showing survival time, level reached, deepest dive, and retry options](docs/screenshots/run-summary.png)](docs/screenshots/run-summary.png) |
+| Start a dive from the ocean-themed title screen. | Review survival time, level reached, and deepest depth before retrying. |
+
 ## Development status
 
 Early prototype, version **0.1.0**. The current content centers on the Sunlight Zone and its boss. Deeper zone names appear in the depth display, but they do not represent finished biomes. Progress currently lasts for the session; there is no save system.
