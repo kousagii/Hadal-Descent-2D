@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c85e6dff1ec30e469c16195d39498ff, type: 3}
+  m_Name: NewQuizDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::QuizDatabase
+  speciesPools:
+  - speciesName: Clownfish
+    questions:
+    - questionText: Which fish is known for living among sea anemones?
+      answers:
+      - Red Snapper
+      - Clownfish
+      - Yellowfin Tuna
+      - Great Barracuda
+      correctAnswerIndex: 1
+    - questionText: Which species can change from male to female when the dominant
+        female dies?
+      answers:
+      - Clownfish
+      - Mahi-mahi
+      - Great White Shark
+      - Goliath Grouper
+      correctAnswerIndex: 0
+    - questionText: Which fish commonly feeds on algae, small invertebrates, and
+        leftovers from an anemone host?
+      answers:
+      - Red Snapper
+      - Yellowfin Tuna
+      - Clownfish
+      - Great Barracuda
+      correctAnswerIndex: 2
+    - questionText: Where do clownfish commonly live?
+      answers:
+      - Coral caves
+      - Seaweed forests
+      - Anemones
+      - Open ocean
+      correctAnswerIndex: 2
+    - questionText: What gender are all clownfish born as?
+      answers:
+      - Female
+      - Male
+      - Both male and female
+      - Genderless
+      correctAnswerIndex: 1
+  - speciesName: Great White Shark
+    questions:
+    - questionText: Which apex predator commonly hunts seals and sea lions?
+      answers:
+      - 'Great White Shark '
+      - Goliath Grouper
+      - Great Barracuda
+      - Yellowfin Tuna
+      correctAnswerIndex: 0
+    - questionText: Which species can replace thousands of teeth throughout its lifetime?
+      answers:
+      - Great Barracuda
+      - Great White Shark
+      - Mahi-mahi
+      - Red Snapper
+      correctAnswerIndex: 1
+    - questionText: Which animal has a torpedo-shaped body with a gray back and white
+        underside?
+      answers:
+      - Yellowfin Tuna
+      - Great White Shark
+      - Goliath Grouper
+      - Clownfish
+      correctAnswerIndex: 1
+    - questionText: What type of body shape does a Great White Shark have?
+      answers:
+      - Round
+      - 'Flat '
+      - Box-shaped
+      - Torpedo-shaped
+      correctAnswerIndex: 3
+    - questionText: Where do Great White Sharks live?
+      answers:
+      - 'Freshwater rivers '
+      - 'Mangrove forests only '
+      - 'Coastal and open ocean waters '
+      - Polar ice caves
+      correctAnswerIndex: 2
+  - speciesName: Yellowfin Tuna
+    questions:
+    - questionText: Which fish is recognized by its bright yellow fins?
+      answers:
+      - Yellowfin Tuna
+      - 'Red Snapper '
+      - 'Mahi-mahi '
+      - 'Great Barracuda  '
+      correctAnswerIndex: 0
+    - questionText: Which species often travels in large groups called schools?
+      answers:
+      - Goliath Grouper
+      - 'Great White Shark  '
+      - 'Yellowfin Tuna  '
+      - 'Box Jellyfish '
+      correctAnswerIndex: 2
+    - questionText: Which fish can release up to several million eggs during spawning?
+      answers:
+      - Yellowfin Tuna
+      - 'Mahi-mahi '
+      - Clownfish
+      - 'Great Barracuda '
+      correctAnswerIndex: 0
+    - questionText: What are large groups of tuna called?
+      answers:
+      - Pods
+      - Packs
+      - 'Herds '
+      - 'Schools  '
+      correctAnswerIndex: 3
+    - questionText: What do Yellowfin Tuna eat?
+      answers:
+      - Coral and algae
+      - Small fish, squid, and crustaceans
+      - Seaweed, algae and planktons
+      - Marine mammals such as seals and sea lions
+      correctAnswerIndex: 1
+  - speciesName: Great Barracuda
+    questions:
+    - questionText: Which fish is famous for its large sharp teeth and ambush-hunting
+        behavior??
+      answers:
+      - 'Great Barracuda '
+      - 'Yellowfin Tuna '
+      - Red Snapper
+      - Clownfish
+      correctAnswerIndex: 0
+    - questionText: Which species can reach sprinting speeds of around 58 kph?
+      answers:
+      - 'Great White Shark '
+      - 'Great Barracuda '
+      - Goliath Grouper
+      - 'Red Snapper '
+      correctAnswerIndex: 1
+    - questionText: Which fish is commonly found near shallow reefs and mangroves?
+      answers:
+      - Great Barracuda
+      - 'Mahi-mahi '
+      - Yellowfin Tuna
+      - 'Box Jellyfish '
+      correctAnswerIndex: 0
+    - questionText: What color is a Great Barracuda?
+      answers:
+      - 'Green '
+      - Red
+      - 'Silver '
+      - Purple
+      correctAnswerIndex: 2
+    - questionText: What feature helps a Great Barracuda catch prey?
+      answers:
+      - Long whiskers
+      - Large, sharp teeth
+      - Venomous fins
+      - Suction mouth
+      correctAnswerIndex: 1
+  - speciesName: Mahi-mahi
+    questions:
+    - questionText: Which fish displays bright green, blue, and gold colors?
+      answers:
+      - 'Yellowfin Tuna '
+      - 'Mahi-mahi '
+      - Red Snapper
+      - Clownfish
+      correctAnswerIndex: 1
+    - questionText: Which species reaches adulthood in only four to five months?
+      answers:
+      - 'Mahi-mahi '
+      - 'Great Barracuda '
+      - Red Snapper
+      - Goliath Grouper
+      correctAnswerIndex: 0
+    - questionText: Which fish is commonly found in open tropical waters near the
+        surface?
+      answers:
+      - Great White Shark
+      - Red Snapper
+      - 'Mahi-mahi  '
+      - Clownfish
+      correctAnswerIndex: 2
+    - questionText: What colors can a Mahi-mahi's skin flash?
+      answers:
+      - 'Red, yellow and white '
+      - Black, white and gray
+      - 'Purple and pink '
+      - 'Green, blue, and gold '
+      correctAnswerIndex: 3
+    - questionText: What physical feature is common in Mahi-mahi?
+      answers:
+      - Long tentacles
+      - Large claws
+      - A shell
+      - A large forehead
+      correctAnswerIndex: 3
+  - speciesName: Red Snapper
+    questions:
+    - questionText: Which fish is known for its distinctive brick-red coloration?
+      answers:
+      - Red Snapper
+      - 'Mahi-mahi '
+      - Yellowfin Tuna
+      - 'Great Barracuda '
+      correctAnswerIndex: 0
+    - questionText: Which species commonly feeds on shrimp, crabs, and small fish
+        near the ocean floor?
+      answers:
+      - 'Red Snapper '
+      - Clownfish
+      - Yellowfin Tuna
+      - Box Jellyfish
+      correctAnswerIndex: 0
+    - questionText: Which fish can live for more than half a century?
+      answers:
+      - Great Barracuda
+      - Red Snapper
+      - 'Mahi-mahi  '
+      - Clownfish
+      correctAnswerIndex: 1
+    - questionText: What body feature helps Red Snappers feed?
+      answers:
+      - Tentacles
+      - Strong jaws
+      - Beaks
+      - Long tongues
+      correctAnswerIndex: 1
+    - questionText: 'How long can a Red Snapper live?
+
+'
+      answers:
+      - Less than 10 years
+      - 20 years
+      - 30 years
+      - More than 50 years
+      correctAnswerIndex: 3
+  - speciesName: Box Jellyfish
+    questions:
+    - questionText: Which marine animal has a cube-shaped bell?
+      answers:
+      - 'Box Jellyfish '
+      - Clownfish
+      - Mahi-mahi
+      - Goliath Grouper
+      correctAnswerIndex: 0
+    - questionText: Which species uses long tentacles to catch fish and shrimp?
+      answers:
+      - 'Yellowfin Tuna '
+      - Great Barracuda
+      - Box Jellyfish
+      - Red Snapper
+      correctAnswerIndex: 2
+    - questionText: Which animal is considered one of the most venomous marine creatures?
+      answers:
+      - Great White Shark
+      - Goliath Grouper
+      - 'Box Jellyfish '
+      - Yellowfin Tuna
+      correctAnswerIndex: 2
+    - questionText: What color is a Box Jellyfish?
+      answers:
+      - Bright red
+      - Dark green
+      - Pale blue
+      - Solid black
+      correctAnswerIndex: 2
+    - questionText: What do Box Jellyfish use to catch prey?
+      answers:
+      - Sharp teeth
+      - Large claws
+      - Strong jaws
+      - Long tentacles
+      correctAnswerIndex: 3

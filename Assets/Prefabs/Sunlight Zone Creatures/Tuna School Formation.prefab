@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8999602261992977407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 35316631289556520}
+  - component: {fileID: 46208434727784570}
+  - component: {fileID: -3382974400052355647}
+  m_Layer: 0
+  m_Name: Tuna School Formation
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &35316631289556520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999602261992977407}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -7.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1466987357638452739}
+  - {fileID: 584145413147025373}
+  - {fileID: 4510822085141389552}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &46208434727784570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999602261992977407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3038a28d55ee9c24488335fd94429a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TunaJousting
+  swimSpeed: 15
+  despawnX: 35
+  respawnCooldown: 5
+  warningDuration: 3
+  warningSignPrefab: {fileID: 6261476480122176704, guid: 9d487484df646d649a518860d7d08487, type: 3}
+  triggerDistanceY: 10
+  randomizeSpawnSide: 1
+--- !u!50 &-3382974400052355647
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999602261992977407}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!1001 &4683397503430753703
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 35316631289556520}
+    m_Modifications:
+    - target: {fileID: 1451540558592521211, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_Name
+      value: Yellowfin Tuna_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+--- !u!4 &4510822085141389552 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+  m_PrefabInstance: {fileID: 4683397503430753703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7655174632607152980
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 35316631289556520}
+    m_Modifications:
+    - target: {fileID: 1451540558592521211, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_Name
+      value: Yellowfin Tuna_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977024254060680220, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+--- !u!4 &1466987357638452739 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+  m_PrefabInstance: {fileID: 7655174632607152980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8537735100571009674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 35316631289556520}
+    m_Modifications:
+    - target: {fileID: 1451540558592521211, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_Name
+      value: Yellowfin Tuna_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+--- !u!4 &584145413147025373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9108369710279695703, guid: c91ea7fa0bb147743981f3872f900451, type: 3}
+  m_PrefabInstance: {fileID: 8537735100571009674}
+  m_PrefabAsset: {fileID: 0}

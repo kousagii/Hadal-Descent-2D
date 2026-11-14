@@ -51,6 +51,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -105,3 +106,25 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Local editor preferences (keep existing local files when untracking).
+/.vscode/
+/.idea/
+
+# OS metadata and editor backup copies.
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*~.meta
+*.bak
+*.bak.meta
+
+# Unity scene recovery copies: preserve locally, exclude from source control.
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# Only the public, root README is published. README.dev.md stays local.
+*.[mM][dD]
+*.[mM][dD].meta
+!/README.md

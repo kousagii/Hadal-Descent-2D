@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8998780b7dade489c20276cf39c683, type: 3}
+  m_Name: VenomGlands
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: VenomGlands
+  levelDescriptions:
+  - "Poison deals 5 DPS for 5 seconds\r "
+  - Poison duration +5 second
+  - Poison deals 8 DPS
+  - Poison can stack twice
+  - Poison deals 10 DPS
+  skillType: 0
+  icon: {fileID: 21300000, guid: 5c155ea92d9a7c541af187057bfb891d, type: 3}
+  cooldown: 5
+  visualOverlay: {fileID: 21300000, guid: 5b7b84e3fe89c3648a21b05d4844e4b7, type: 3}

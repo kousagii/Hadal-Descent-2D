@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8998780b7dade489c20276cf39c683, type: 3}
+  m_Name: Echolocation
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: Echolocation
+  levelDescriptions:
+  - Reveals nearby enemies and discoverables; marked enemies take +15% damage
+  - 'Cooldown reduced by 15% '
+  - Pulse radius increased by 30%
+  - Bonus damage against marked enemies increased to 30%
+  - Emits a high-frequency blast that stuns enemies for 1.5 seconds
+  skillType: 1
+  icon: {fileID: 21300000, guid: 90d69f1c453c13a4a9703174f1dd8aea, type: 3}
+  cooldown: 10
+  visualOverlay: {fileID: 21300000, guid: b9e397cc9c6dbcd42ae5c328a6faccd2, type: 3}
